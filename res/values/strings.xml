@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MiniProj3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="menulist">
+        <item>Home</item>
+        <item>NP Website</item>
+        <item>Social</item>
+        <item>News</item>
+        <item>Calendar</item>
+        <item>New Calendar Event</item>
+        <item>Music</item>
+        <item>Photography</item>
+        <item>NP Email</item>
+        <item>Feedback</item>
+        <item>About Us</item>
+    </string-array>
+
+    <string name="title_activity_social">SocialActivity</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_photography">Photography</string>
+    <string name="title_activity_feedback">Feedback</string>
+
+</resources>

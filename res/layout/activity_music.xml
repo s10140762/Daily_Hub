@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/music_icon" />
+
+    <ImageButton
+        android:id="@+id/imDeezer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="39dp"
+        android:background="#000000"
+        android:src="@drawable/deezer_icon" />
+
+    <ImageButton
+        android:id="@+id/imSpotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imDeezer"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@+id/imDeezer"
+        android:background="#000000"
+        android:src="@drawable/spotify_icon" />
+
+    <ImageButton
+        android:id="@+id/imMog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imDeezer"
+        android:layout_below="@+id/imDeezer"
+        android:layout_marginTop="46dp"
+        android:background="#000000"
+        android:src="@drawable/mog_icon" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:text="Return" />
+
+</RelativeLayout>
